@@ -1,5 +1,4 @@
-
-use warnings FATAL => 'all';
+use warnings;
 use strict;
 
 use MooseX::Types::Path::Class qw(Dir File);
