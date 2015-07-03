@@ -75,9 +75,9 @@ coercions and option specifications useful for dealing
 with L<Path::Class> objects as L<Moose> attributes.
 
 Coercions (see L<Moose::Util::TypeConstraints>) are made
-from both 'Str' and 'ArrayRef' to both L<Path::Class::Dir> and
+from both C<Str> and C<ArrayRef> to both L<Path::Class::Dir> and
 L<Path::Class::File> objects.  If you have L<MooseX::Getopt> installed,
-the Getopt option type ("=s") will be added for both
+the C<Getopt> option type ("=s") will be added for both
 L<Path::Class::Dir> and L<Path::Class::File>.
 
 
@@ -110,15 +110,15 @@ These exports can be used instead of the full class names.  Example:
       coerce   => 1,
   );
 
-Note that there are no quotes around Dir or File.
+Note that there are no quotes around C<Dir> or C<File>.
 
 =item is_Dir($value), is_File($value)
 
-Returns true or false based on whether $value is a valid Dir or File.
+Returns true or false based on whether $value is a valid C<Dir> or C<File>.
 
 =item to_Dir($value), to_File($value)
 
-Attempts to coerce $value to a Dir or File.  Returns the coerced value
+Attempts to coerce $value to a C<Dir> or C<File>.  Returns the coerced value
 or false if the coercion failed.
 
 =back
