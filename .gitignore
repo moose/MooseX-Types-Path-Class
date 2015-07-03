@@ -1,0 +1,6 @@
+/.ackrc
+/.build/
+!/.gitignore
+/.latest
+/MooseX-Types-Path-Class-*/
+/MooseX-Types-Path-Class-*.tar.gz

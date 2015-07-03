@@ -1,9 +1,11 @@
 package MooseX::Types::Path::Class;
 
+our $VERSION = '0.07';
+
 use warnings FATAL => 'all';
 use strict;
 
-use Path::Class ();
+use Path::Class 0.16 ();
 
 use MooseX::Types
     -declare => [qw( Dir File )];
