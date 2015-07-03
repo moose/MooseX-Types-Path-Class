@@ -3,7 +3,7 @@ use warnings;
 package MooseX::Types::Path::Class;
 # ABSTRACT: A Path::Class type library for Moose
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 use Path::Class 0.16 ();
 
