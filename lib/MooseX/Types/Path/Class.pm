@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 package MooseX::Types::Path::Class;
+# ABSTRACT: A Path::Class type library for Moose
 
 our $VERSION = '0.07';
 
@@ -39,11 +40,7 @@ if ( !$@ ) {
 1;
 __END__
 
-
-=head1 NAME
-
-MooseX::Types::Path::Class - A Path::Class type library for Moose
-
+=pod
 
 =head1 SYNOPSIS
 
@@ -142,17 +139,4 @@ L<Moose>, L<MooseX::Types>, L<Path::Class>
 If you find a bug please either email the author, or add
 the bug to cpan-RT L<http://rt.cpan.org>.
 
-
-=head1 AUTHOR
-
-Todd Hepler  C<< <thepler@employees.org> >>
-
-
-=head1 LICENCE AND COPYRIGHT
-
-Copyright (c) 2007-2012, Todd Hepler C<< <thepler@employees.org> >>.
-
-This module is free software; you can redistribute it and/or
-modify it under the same terms as Perl itself. See L<perlartistic>.
-
-
+=cut
