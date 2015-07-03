@@ -1,6 +1,6 @@
 Revision history for MooseX-Types-Path-Class
 
-{{$NEXT}}
+0.07      2015-07-03 18:10:13Z
     - canonical repository changed to
       https://github.com/moose/MooseX-Types-Path-Class
     - added META.json and other modern tooling
