@@ -2,7 +2,7 @@ use warnings;
 use strict;
 
 use MooseX::Types::Path::Class qw(Dir File);
-use Moose::Util::TypeConstraints;
+use Moose::Util::TypeConstraints 'find_type_constraint';
 
 use Test::More;
 
