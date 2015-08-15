@@ -11,6 +11,7 @@ use MooseX::Types
     -declare => [qw( Dir File )];
 
 use MooseX::Types::Moose qw(Str ArrayRef);
+use if MooseX::Types->VERSION >= 0.42, 'namespace::autoclean';
 
 class_type('Path::Class::Dir');
 class_type('Path::Class::File');
