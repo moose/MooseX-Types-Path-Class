@@ -124,11 +124,9 @@ or false if the coercion failed.
 
 =back
 
-
 =head1 SEE ALSO
 
 L<MooseX::Types::Path::Class::MoreCoercions>, L<MooseX::FileAttribute>, L<MooseX::Types::URI>
-
 
 =head1 DEPENDENCIES
 

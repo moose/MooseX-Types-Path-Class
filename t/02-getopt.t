@@ -7,7 +7,6 @@ if ($@) {
 }
 
 {
-
     package Foo;
     use Moose;
     with 'MooseX::Getopt';
@@ -29,7 +28,6 @@ if ($@) {
 }
 
 {
-
     package Bar;
     use Moose;
     with 'MooseX::Getopt';
@@ -83,4 +81,3 @@ for my $class (qw(Foo Bar)) {
     isa_ok( $o, $class );
     $check->($o);
 }
-

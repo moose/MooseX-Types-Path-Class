@@ -2,7 +2,6 @@ use warnings;
 use strict;
 
 {
-
     package Foo;
     use Moose;
     use MooseX::Types::Path::Class;
@@ -23,7 +22,6 @@ use strict;
 }
 
 {
-
     package Bar;
     use Moose;
     use MooseX::Types::Path::Class qw( Dir File );
@@ -65,4 +63,3 @@ for my $class (qw(Foo Bar)) {
     isa_ok( $o, $class );
     $check->($o);
 }
-
