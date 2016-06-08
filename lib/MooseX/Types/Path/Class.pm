@@ -134,10 +134,4 @@ L<MooseX::Types::Path::Class::MoreCoercions>, L<MooseX::FileAttribute>, L<MooseX
 
 L<Moose>, L<MooseX::Types>, L<Path::Class>
 
-
-=head1 BUGS AND LIMITATIONS
-
-If you find a bug please either email the author, or add
-the bug to cpan-RT L<http://rt.cpan.org>.
-
 =cut
