@@ -1,10 +1,7 @@
 use warnings;
 use strict;
 
-eval { require MooseX::Getopt; };
-if ($@) {
-    plan( skip_all => 'MooseX::Getopt required for this test' );
-}
+use Test::Needs 'MooseX::Getopt';
 
 {
     package Foo;
