@@ -1,5 +1,7 @@
 Revision history for MooseX-Types-Path-Class
 
+{{$NEXT}}
+
 0.09      2016-06-08 01:05:14Z
     - made MooseX::Getopt an optional dependency again (broken in 0.07)
 
